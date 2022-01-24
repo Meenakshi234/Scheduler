@@ -10,7 +10,7 @@ it("renders without crashing", () => {
   render(<Button />);
 });
 
-it.skip("renders its `children` prop as text", () => {
+/* it.skip("renders its `children` prop as text", () => {
   const { getByText } = render(<Button>Default</Button>);
   expect(getByText("Default")).toBeInTheDocument();
 });
@@ -57,3 +57,4 @@ it.skip("renders a disabled button", () => {
 
   expect(handleClick).toHaveBeenCalledTimes(0);
 });
+ */
